@@ -1,0 +1,44 @@
+name: haircut_appointment
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #Mobx
+  mobx: ^2.3.3+2 
+  flutter_mobx: ^2.2.1+1
+  
+  #Carousel
+  carousel_slider: ^4.2.1
+  
+  #AnimatedSmoothIndicator
+  smooth_page_indicator: ^1.2.0
+
+  #Splash Screen
+  animated_splash_screen: ^1.3.0
+
+  #Speed Dial(pop up menu)
+  flutter_speed_dial: ^7.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #Mobx
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.11
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/hizmet/
+    - assets/logo/
